@@ -16,7 +16,7 @@ public class CibiPreferiti {
 			if (lunghezza % 2 == 0) {
 				System.out.println("I cibi a metà classifica sono: \n"+(lunghezza/2)+"° posizione, "+cibiPreferiti[lunghezza/2-1]+"\n"+(lunghezza/2+1)+"° posizione, "+cibiPreferiti[lunghezza/2]);
 			}else {
-				System.out.println("Il cibo a metà classifica è: "+(lunghezza/2)+"° posizione, "+cibiPreferiti[lunghezza/2-1]);
+				System.out.println("Il cibo a metà classifica è: "+(lunghezza/2+1)+"° posizione, "+cibiPreferiti[lunghezza/2]);
 			}
 		
 	}
